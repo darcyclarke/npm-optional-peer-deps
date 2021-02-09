@@ -1,13 +1,11 @@
 {
-  "name": "npm-optional-peer-deps",
+  "name": "a",
   "version": "1.0.0",
   "peerDependencies": {
-    "a": "file:./a",
-    "b": "file:./b",
-    "react": "*"
+    "express": ">=1"
   },
   "peerDependenciesMeta": {
-    "react": {
+    "express": {
       "optional": true
     }
   }
